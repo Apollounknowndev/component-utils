@@ -37,7 +37,7 @@ Outputs the contents of component(s) on the item. If a specific components is no
 - `<component entry type` determines where to try to get the component from. Possible values include:
   - `explicit`: Gets the component from the item stack's `components` field.
   - `implicit`: Gets the component from the item's default components.
-  - `explicit`: Gets the component from the `components` field if present, otherwise fallbacks to the item's default components.
+  - `all`: Gets the component from the `components` field if present, otherwise fallbacks to the item's default components.
 - `[<component type>]` is the ID for the component type. If omitted, the game will return *every* component.
 
 **Examples**
