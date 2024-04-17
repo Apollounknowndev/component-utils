@@ -14,7 +14,7 @@
 
   "commands.component_utils.remove.success": "Removed implicit component '%s' from item stack",
   "commands.component_utils.remove.component_already_removed": "Component '%s' has already been removed from item stack",
-  "commands.component_utils.remove.component_not_present": "Component '%s' doesn't exist on item stack",
+  "commands.component_utils.remove.component_not_present": "Component '%s' is not present on item stack",
 
   "commands.component_utils.clear.single.success": "Cleared changes to component '%s' from item stack",
   "commands.component_utils.clear.single.cant_clear": "Component '%s' is not on item stack",
