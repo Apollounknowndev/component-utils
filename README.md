@@ -42,22 +42,22 @@ Outputs the contents of component(s) on the item. If a specific components is no
 
 **Examples**
 
-`/component_utils ... explicit`
+`/component_utils ... get explicit`
 ```
 Item stack has the following components: [minecraft:enchantments={levels: {"minecraft:sharpness": 2}},minecraft:custom_name='"Cool Sword"'] [Copy]
 ```
 
-`/component_utils ... explicit enchantments`
+`/component_utils ... get explicit enchantments`
 ```
 Component 'minecraft:enchantments' on item stack has the following contents: {levels: {"minecraft:sharpness": 2}} [Copy]
 ```
 
-`/component_utils ... implicit rarity`
+`/component_utils ... get implicit rarity`
 ```
 Component 'minecraft:rarity' on item stack has the following contents: "common" [Copy]
 ```
 
-`/component_utils ... all bees`
+`/component_utils ... get all bees`
 ```
 Component 'minecraft:bees' is not explicitly nor implicitly present on item stack
 ```
