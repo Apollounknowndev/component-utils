@@ -1,0 +1,23 @@
+{
+  "component_utils.component_changes_tooltip": "%s component change(s)",
+  "component_utils.copy": "[Copy]",
+  "component_utils.data_component_invalid": "There is no component with type '%s'",
+  "component_utils.entry_type_text.explicit": "explicitly",
+  "component_utils.entry_type_text.implicit": "implicitly",
+  "component_utils.entry_type_text.all": "explicitly nor implicitly",
+
+  "commands.component_utils.get.success_single": "Component '%s' on item stack has the following contents: %s",
+  "commands.component_utils.get.success_all": "Item stack has the following components: %s",
+  "commands.component_utils.get.component_not_on_item": "Component '%s' is not %s present on item stack",
+
+  "commands.component_utils.merge.success": "Merged components into item stack",
+
+  "commands.component_utils.remove.success": "Removed implicit component '%s' from item stack",
+  "commands.component_utils.remove.component_already_removed": "Component '%s' has already been removed from item stack",
+  "commands.component_utils.remove.component_not_present": "Component '%s' doesn't exist on item stack",
+
+  "commands.component_utils.clear.single.success": "Cleared changes to component '%s' from item stack",
+  "commands.component_utils.clear.single.cant_clear": "Component '%s' is not on item stack",
+  "commands.component_utils.clear.all.success": "Cleared all component changes from item stack",
+  "commands.component_utils.clear.all.cant_clear": "No component changes to clear from item stack"
+}

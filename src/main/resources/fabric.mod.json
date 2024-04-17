@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "component_utils",
+	"version": "${version}",
+	"name": "Component Utils",
+	"description": "Adds some minor features to help with developing with item components",
+	"authors": [
+		"Apollo"
+	],
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.worldgen.componentutils.ComponentUtils"
+		],
+		"client": [
+			"dev.worldgen.componentutils.ComponentUtilsClient"
+		]
+	},
+	"accessWidener": "component_utils.accesswidener",
+	"mixins": [
+		"component_utils.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.10",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
